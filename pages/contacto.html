@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZeroStore</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/img/juegos.png">
+</head>
+
+<body>
+    <header class="header">
+        <a class="zerostore" href="/index.html">
+            <h1>ZeroStore</h1>
+        </a>
+    </header>
+    <nav class="navegacion">
+        <a class="navegacion__enlace en1 navegacion__enlace--activo" href="/index.html">Tienda</a>
+        <a class="navegacion__enlace en2" href="/pages/nosotros.html">Nosotros</a>
+        <a class="navegacion__enlace en3" href="/pages/contacto.html">Contacto</a>
+    </nav>
+    <!-- Busqueda -->
+    <div class="busqueda">
+        <input class="barra__busqueda" type="text" placeholder="Buscar">
+        <a href="#">
+            <img class="imagen__buscar" src="/img/busqueda.png" alt="Buscar">
+        </a>
+        <a href="index.html">
+            <img class="imagen__perfil" src="/img/perfil.png" alt="Perfil">
+        </a>
+    </div>
+    <main class="contenedor">
+        <div id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <form class="formulario" action="#" method="POST">
+                <legend>Contactános llenando todos los campos</legend>
+
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre</label>
+
+                        <input type="text" name="nombre" placeholder="Nombre" required>
+                    </div>
+                    <div class="campo">
+                        <label>Teléfono</label>
+
+                        <input type="tel" name="telefono" placeholder="Teléfono">
+                    </div>
+                    <div class="campo w-100">
+                        <label>Correo</label>
+
+                        <input type="mail" name="correo" placeholder="Mail">
+                    </div>
+                    <div class="campo w-100">
+                        <label>Mensaje:</label>
+
+                        <textarea></textarea>
+                    </div>
+                </div>
+                <!--.contenedor-campos-->
+                <div class="enviar">
+                    <input class="boton" type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer__texto">Jose Zapata - Todos los derechos reservados 201250.</p>
+    </footer>
+</body>
+</html>

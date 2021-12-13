@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a class="zerostore" href="index.html"><h1>ZeroStore</h1></a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace en1 navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace en2" href="/pages/nosotros.html">Nosotros</a>
+        <a class="navegacion__enlace en3" href="/pages/contacto.html">Contacto</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Combo Gamer</h1>
+
+        <div class="gamer">
+            <img src="/img/maxresdefault.jpg" alt="Imagen del Producto">
+
+            <div">
+                <p>Maecenas consectetur ultricies mi vel venenatis. Curabitur risus tellus, congue non tellus at, semper dapibus turpis. Duis pellentesque, risus sit amet placerat porttitor, tortor augue volutpat ante, non dignissim odio ligula at arcu.</p>
+
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>-- Seleccionar Combo --</option>
+                        <option>Gamer1</option>
+                        <option>Gamer2</option>
+                        <option>Gamer3</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Jose Zapata - Todos los derechos reservados 2025.</p>
+    </footer>
+</body>
+</html>
