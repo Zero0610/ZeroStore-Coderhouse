@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FrontEnd Store</title>
+    <title>ZeroStore</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
@@ -11,15 +11,36 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
-    <header class="header">
-        <a class="zerostore" href="index.html"><h1>ZeroStore</h1></a>
-    </header>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style="background:#539995 !important">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html">ZeroStore</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+                        </li>
 
-    <nav class="navegacion">
-        <a class="navegacion__enlace en1 navegacion__enlace--activo" href="index.html">Tienda</a>
-        <a class="navegacion__enlace en2" href="/pages/nosotros.html">Nosotros</a>
-        <a class="navegacion__enlace en3" href="/pages/contacto.html">Contacto</a>
-    </nav>
+
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
 
     <main class="contenedor">
         <h1>Combo Gamer</h1>
