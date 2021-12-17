@@ -11,7 +11,7 @@
 
 html {
     box-sizing: border-box;
-    
+
 
 }
 
@@ -28,7 +28,7 @@ body {
     font-size: 10px;
     line-height: 1.5;
     width: 100%;
-    
+
 }
 
 p {
@@ -37,6 +37,7 @@ p {
     color: var(--negro);
     padding: 10px
 }
+
 img {
     width: 100%;
 }
@@ -78,16 +79,19 @@ h3 {
     border-radius: 1rem;
     /* margin-bottom: -5rem; */
 }
-.navbar-brand{
+
+.navbar-brand {
     font-size: 25px !important;
     font-family: var(--fuentePrincipal);
 }
-.nav-link{
+
+.nav-link {
     font-size: 20px;
     color: #FFF !important;
     font-family: var(--fuentePrincipal);
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #000000 !important;
 }
 
@@ -149,11 +153,15 @@ h3 {
 .producto {
     background-color: var(--primarioOscuro);
     padding: 1rem;
-    border-radius: 1rem;
+    border-radius: 5px;
 }
 
 .producto__nombre {
     font-size: 2rem;
+}
+
+.producto__imagen {
+    border-radius: 5px;
 }
 
 .producto__precio {
@@ -175,6 +183,7 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     grid-column: 1 / 3;
+    border-radius: 5px;
 }
 
 .grafico--producto {
@@ -242,12 +251,15 @@ h3 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2rem;
+        padding: 10px;
     }
 }
-.btn-outline-success{
-    background-color:#bbd7e1 !important;
+
+.btn-outline-success {
+    background-color: #bbd7e1 !important;
 }
-nav{
+
+nav {
     background: #539995 !important;
 }
 
@@ -270,6 +282,7 @@ nav{
     scroll-snap-align: center;
     scroll-snap-stop: always;
 }
+
 .formulario legend {
     text-align: center;
     font-family: var(--fuenteSecundaria);
@@ -282,12 +295,14 @@ nav{
     text-align: center;
     letter-spacing: -1px;
 }
+
 @media (min-width:768px) {
     .formulario {
         max-width: 800px;
         margin: 0 auto;
     }
 }
+
 .contenedor-campos {
     display: flex;
     justify-content: space-between;
@@ -299,28 +314,33 @@ nav{
     margin-bottom: 1rem;
     width: 100%;
 }
+
 @media (min-width:480px) {
     .campo {
         display: flex;
         align-items: center;
     }
 }
+
 @media (min-width: 768px) {
-    .campo{
+    .campo {
         flex: 0 0 calc(50% - .5rem)
     }
 }
+
 .campo label {
     color: var(--blanco);
     font-weight: 700;
     margin-bottom: .5rem;
     display: block;
 }
+
 @media (min-width:480px) {
     .campo label {
         flex: 0 0 90px;
     }
 }
+
 .campo input[type="text"],
 .campo input[type="tel"],
 .campo input[type="mail"],
@@ -330,20 +350,22 @@ nav{
     border: none;
     border-radius: .5rem;
 }
+
 @media (min-width: 768px) {
-    :is(.campo) :is( 
-        input[type="text"], 
-        input[type="text"],  
-        input[type="tel"],  
-        input[type="mail"] , 
-        textarea ) {
+
+    :is(.campo) :is(input[type="text"],
+        input[type="text"],
+        input[type="tel"],
+        input[type="mail"],
+        textarea) {
         flex: 1;
     }
 }
 
-.w-100{
+.w-100 {
     flex: 0 0 100%;
 }
+
 .campo textarea {
     height: 4rem;
 }
@@ -352,6 +374,7 @@ nav{
     display: flex;
     justify-content: flex-end;
 }
+
 .boton {
     background-color: var(--primarioOscuro);
     color: var(--blanco);
@@ -362,6 +385,5 @@ nav{
     text-decoration: none;
     text-transform: uppercase;
     font-size: .6rem;
-    border:none;
+    border: none;
 }
-
