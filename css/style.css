@@ -11,7 +11,7 @@
 
 html {
     box-sizing: border-box;
-    font-size: 62.5%;
+    
 
 }
 
@@ -24,21 +24,18 @@ html {
 /** Globales **/
 body {
     background-image: linear-gradient(to top, white 1%, #b8d5e0 100%);
-    font-size: 1.6rem;
+    font-size: 10px;
     line-height: 1.5;
     width: 100%;
+    
 }
 
 p {
-    font-size: 1.8rem;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--negro);
+    padding: 10px
 }
-
-a {
-    text-decoration: none;
-}
-
 img {
     width: 100%;
 }
@@ -57,30 +54,41 @@ h3 {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 10px;
 }
 
 h2 {
-    font-size: 3.2rem;
+    font-size: 10px;
 }
 
 h3 {
-    font-size: 2.4rem;
+    font-size: 10px;
 }
 
 /** Header **/
-.header {
+/* .header {
     display: flex;
     justify-content: center;
     margin: 1rem 0;
-}
+} */
 
 .zerostore {
     background-image: linear-gradient(to right top, #539995, #6ba8aa, #84b7be, #9ec6d0, #b8d5e0);
     border-radius: 1rem;
     /* margin-bottom: -5rem; */
 }
-
+.navbar-brand{
+    font-size: 25px !important;
+    font-family: var(--fuentePrincipal);
+}
+.nav-link{
+    font-size: 20px;
+    color: #FFF !important;
+    font-family: var(--fuentePrincipal);
+}
+.nav-link:hover{
+    color: #000000 !important;
+}
 
 /** Footer **/
 .footer {
@@ -92,7 +100,7 @@ h3 {
 .footer__texto {
     font-family: var(--fuentePrincipal);
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 1.5rem;
 }
 
 /** Navegacion **/
@@ -109,7 +117,7 @@ h3 {
 .navegacion__enlace {
     font-family: var(--fuentePrincipal);
     color: var(--blanco);
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .navegacion__enlace--activo,
@@ -123,6 +131,7 @@ h3 {
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     margin-top: 1rem;
+
 }
 
 @media (min-width: 768px) {
@@ -143,11 +152,11 @@ h3 {
 }
 
 .producto__nombre {
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 .producto__precio {
-    font-size: 2.8rem;
+    font-size: 1.4rem;
     color: var(--secundario);
 }
 
@@ -234,7 +243,12 @@ h3 {
         column-gap: 2rem;
     }
 }
-
+.btn-outline-success{
+    background-color:#bbd7e1 !important;
+}
+nav{
+    background: #539995 !important;
+}
 
 /* Busqueda */
 .imagen__perfil {
@@ -246,34 +260,6 @@ h3 {
     margin-top: 1rem;
 }
 
-.imagen__buscar {
-    width: 1.5rem;
-    margin-bottom: -.2rem;
-}
-
-
-.barra__busqueda {
-    border-radius: 3rem;
-    border-color: var(--primarioOscuro);
-    font-family: var(--fuentePrincipal);
-    color: var(--negro);
-    border-style: solid;
-    border-width: .5rem;
-
-}
-
-.busqueda {
-    text-align: end;
-    float: right;
-    margin: -1rem;
-
-}
-
-@media (min-width: 768px) {
-    .busqueda {
-        margin-top: -12rem;
-    }
-}
 
 /* contacto formulario */
 .formulario {
@@ -286,7 +272,7 @@ h3 {
 .formulario legend {
     text-align: center;
     font-family: var(--fuenteSecundaria);
-    font-size: 2.5rem;
+    font-size: 1.25rem;
     color: var(--blanco);
     margin-bottom: 2rem;
     display: block;
@@ -374,7 +360,7 @@ h3 {
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: .6rem;
     border:none;
 }
 
