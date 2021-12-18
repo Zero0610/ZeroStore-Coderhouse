@@ -111,12 +111,9 @@ h3 {
 /** Navegacion **/
 .navegacion {
     background-color: var(--primarioOscuro);
-    padding: 1rem 0;
     display: flex;
-    width: 100% !important;
     justify-content: center;
-    gap: 2rem;
-    margin-top: 1rem;
+    align-items: center;
 }
 
 .navegacion__enlace {
@@ -129,21 +126,12 @@ h3 {
 .navegacion__enlace:hover {
     color: var(--secundario);
 }
-
-/** Grid **/
-.grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    margin-top: 1rem;
-
+.navegacion .navbar .nav-item{
+    list-style: none;
+    margin-bottom: -15px;
 }
 
-@media (min-width: 768px) {
-    .grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
+
 
 /** Productos **/
 .producto:hover {
@@ -167,12 +155,13 @@ h3 {
 .producto__precio {
     font-size: 1.4rem;
     color: var(--secundario);
+    
 }
 
 .producto__nombre,
 .producto__precio {
     font-family: var(--fuentePrincipal);
-    margin: 1rem 0;
+    margin: 0 0;
     text-align: center;
     line-height: 1.2;
 }
@@ -184,20 +173,6 @@ h3 {
     background-size: cover;
     grid-column: 1 / 3;
     border-radius: 5px;
-}
-
-.grafico--producto {
-    grid-row: 2 / 3;
-    background-image: url(../img/tarjeta1.jpg);
-}
-
-
-
-@media (min-width: 768px) {
-    .grafico--node {
-        grid-row: 5 / 6;
-        grid-column: 2 / 4;
-    }
 }
 
 /** Nosotros **/
@@ -215,6 +190,7 @@ h3 {
 
 .nosotros__imagen {
     grid-row: 1 / 2;
+    padding: 10px;
 }
 
 @media (min-width: 768px) {
@@ -224,26 +200,6 @@ h3 {
 }
 
 
-/** Bloques **/
-.bloques {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-}
-
-@media (min-width: 768px) {
-    .bloques {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-
-.bloque {
-    text-align: center;
-}
-
-.bloque__titulo {
-    margin: 0;
-}
 
 /** Pagina del Producto **/
 @media (min-width: 768px) {
