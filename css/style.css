@@ -343,3 +343,10 @@ nav {
     font-size: .6rem;
     border: none;
 }
+
+.bloque__imagen{
+    width: 70%;
+}
+.bloque{
+    text-align: center;
+}
