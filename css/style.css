@@ -107,7 +107,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} 
 
 .navegacion__enlace {
     font-family: var(--fuentePrincipal);
