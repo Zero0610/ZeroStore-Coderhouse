@@ -1,0 +1,18 @@
+.navbar-brand {
+    font-size: 25px !important;
+    font-family: var(--fuentePrincipal);
+}
+
+.nav-link {
+    font-size: 20px;
+    color: #FFF !important;
+    font-family: var(--fuentePrincipal);
+}
+
+.nav-link:hover {
+    color: #000000 !important;
+}
+.navegacion .navbar .nav-item{
+    list-style: none;
+    // margin-bottom: -15px;
+}
