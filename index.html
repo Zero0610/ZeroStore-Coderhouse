@@ -20,7 +20,7 @@
 <body>
   <!-- Header y barra de navegacion principal  -->
   <header>
-    <nav class="navbar navbar-expand-md fixed-top navbar-dark" style="background:#539995 !important">
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark" style="background: var(--primarioOscuro) !important">
       <!-- Reloj para añadir -->
       <!-- <div class="cleanslate w24tz-current-time w24tz-middle"
             style="display: inline-block !important; visibility: hidden !important; min-width:300px !important; min-height:145px !important;">
@@ -55,7 +55,37 @@
     </nav>
   </header>
   <!-- Header y barra de navegacion principal  -->
-
+  <div class="slide-inner">
+    <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden="" checked="checked">
+    <div class="slide-item">
+      <img src="/img/slider/slide2.jpg">
+    </div>
+    <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+    <div class="slide-item">
+      <img src="/img/slider/slide3.jpg">
+    </div>
+    <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+    <div class="slide-item">
+      <img src="/img/slider/slide4.jpg">
+    </div>
+    <label for="slide-3" class="slide-control prev control-1">‹</label>
+    <label for="slide-2" class="slide-control next control-1">›</label>
+    <label for="slide-1" class="slide-control prev control-2">‹</label>
+    <label for="slide-3" class="slide-control next control-2">›</label>
+    <label for="slide-2" class="slide-control prev control-3">‹</label>
+    <label for="slide-1" class="slide-control next control-3">›</label>
+    <ol class="slide-indicador">
+      <li>
+        <label for="slide-1" class="slide-circulo">•</label>
+      </li>
+      <li>
+        <label for="slide-2" class="slide-circulo">•</label>
+      </li>
+      <li>
+        <label for="slide-3" class="slide-circulo">•</label>
+      </li>
+    </ol>
+  </div>
   <!-- Barra de navegacion secundaria  -->
   <br>
   <main class="container-fluid mt-5">
@@ -222,7 +252,10 @@
   <!-- Footer  -->
   <footer class="footer">
     <p>Jose Zapata - Todos los derechos reservados 2025.</p>
-  </footer>
+    <a href="https://www.facebook.com/"><img class="icon" src="/img/facebook.png" alt=""></a>
+    <a href="https://twitter.com/?lang=es/"><img class="icon" src="/img/signo-de-twitter.png" alt=""></a>
+    <a href="https://www.instagram.com/"><img class="icon" src="/img/instagram.png" alt=""></a>
+</footer>
   <!--FIN Footer  -->
   <script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
