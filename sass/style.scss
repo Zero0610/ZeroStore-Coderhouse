@@ -81,11 +81,19 @@ h3 {
 .producto:hover {
   transform: scale(1.1);
 }
+.producto{
+  background-color: var(--primarioOscuro);
+  padding: 1rem;
+  border-radius: 5px;
 
+}
+@media (max-width: 768px) {
 .producto {
   background-color: var(--primarioOscuro);
   padding: 1rem;
   border-radius: 5px;
+  width: 75% !important;
+}
 }
 
 .producto__nombre {
@@ -266,7 +274,13 @@ nav {
 }
 
 .bloque__imagen {
+  width: 40%;
+}
+
+@media (min-width: 768px) {
+.bloque__imagen {
   width: 70%;
+}
 }
 
 .bloque {
