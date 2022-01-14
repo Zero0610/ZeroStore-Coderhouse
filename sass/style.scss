@@ -2,8 +2,8 @@
 @import "footer";
 
 :root {
-  --primario: #b8d5e0;
-  --primarioOscuro: #539995;
+  --primario: #c1c1c1;
+  --primarioOscuro: #5f6b85;
   --secundario: #000000;
   --secundarioOscuro: rgb(233, 187, 2);
   --blanco: #FFF;
@@ -23,7 +23,7 @@ html {
 }
 /** Globales **/
 body {
-  background-image: linear-gradient(to top, white 1%, #b8d5e0 100%);
+  background-image: linear-gradient(to top, white 1%, #c1c1c1 100%);
   font-size: 10px;
   line-height: 1.5;
   width: 100%;
@@ -142,11 +142,13 @@ h3 {
 }
 
 .btn-outline-success {
-  background-color: #bbd7e1 !important;
+  background-color: var(--primario) !important;
+  color: var(--primarioOscuro) !important;
+  border-color: #c1c1c1 !important;
 }
 
 nav {
-  background: #539995 !important;
+  background: var(--primarioOscuro) !important;
 }
 /* Busqueda */
 
