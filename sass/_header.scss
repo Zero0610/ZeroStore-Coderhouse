@@ -5,14 +5,17 @@
 
 .nav-link {
     font-size: 20px;
-    color: #FFF !important;
+    color: #fff !important;
     font-family: var(--fuentePrincipal);
 }
 
 .nav-link:hover {
     color: #000000 !important;
 }
-.navegacion .navbar .nav-item{
+.navegacion .navbar .nav-item {
     list-style: none;
     // margin-bottom: -15px;
+}
+.img-logo {
+    width: 5%;
 }
