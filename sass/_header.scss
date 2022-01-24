@@ -24,3 +24,19 @@
     width: 5%;
 }
 }
+
+.reloj{
+    pointer-events: none;
+    cursor: default;
+    margin-right: 1rem;
+    margin-bottom: 5px;
+}
+
+@media (min-width:768px) {
+    .reloj{
+        pointer-events: none;
+        cursor: default;
+        margin-right: 1rem;
+        margin-top: 5px;
+    }
+}
