@@ -80,6 +80,7 @@ h3 {
 
 .producto:hover {
   transform: scale(1.1);
+  transition-duration: 1s;
 }
 .producto{
   background-color: var(--primarioOscuro);
@@ -410,4 +411,11 @@ nav {
   font-family: 'Open Sans', sans-serif;
   z-index: 9999;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+}
+
+.nosotrosInfo{
+  @media (min-width: 768px) {
+
+  }
+
 }
